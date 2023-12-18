@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include just_dial *.css
+recursive-include just_dial *.csv
+recursive-include just_dial *.html
+recursive-include just_dial *.ico
+recursive-include just_dial *.js
+recursive-include just_dial *.json
+recursive-include just_dial *.md
+recursive-include just_dial *.png
+recursive-include just_dial *.py
+recursive-include just_dial *.svg
+recursive-include just_dial *.txt
+recursive-exclude just_dial *.pyc
